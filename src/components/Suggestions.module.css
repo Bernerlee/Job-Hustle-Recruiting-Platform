@@ -1,0 +1,32 @@
+.suggestions {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  align-items: center;
+
+  gap: 4px;
+
+  margin-top: 16px;
+
+  font-size: 14px;
+}
+
+.label {
+  color: #9199a3;
+}
+
+.suggestions a {
+  text-decoration: none;
+  color: #5e6670;
+  transition: color 0.2s ease;
+}
+
+.suggestions a:hover {
+  color: #0a65cc;
+}
+
+.active {
+  color: #0a65cc;
+  font-weight: 500;
+}

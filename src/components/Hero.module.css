@@ -1,0 +1,30 @@
+.hero {
+  padding: 80px 120px;
+  background: #f8f9fc;
+}
+
+.heroContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  max-width: 620px;
+}
+
+.left h1 {
+  font-size: 56px;
+  line-height: 1.2;
+  color: #18191c;
+}
+
+.left p {
+  margin-top: 24px;
+  color: #767fbc;
+  font-size: 18px;
+}
+
+.right img {
+  width: 500px;
+}

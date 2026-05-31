@@ -1,0 +1,58 @@
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0px 120px;
+
+  background-color: #f5f7fa;
+
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.left {
+  display: flex;
+  gap: 28px;
+}
+
+.left * {
+  text-decoration: none;
+  color: #5e6670;
+  padding: 10px 0px;
+
+  font-size: 14px;
+  font-weight: 500;
+
+  transition: color 0.2s ease;
+}
+
+.left *:hover {
+  color: #0a65cc;
+  border-bottom: 2px solid #0a65cc;
+}
+
+.active {
+  color: #0a65cc !important;
+}
+
+.right {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.phone {
+  font-size: 14px;
+  font-weight: 700;
+  color: #18191c;
+}
+
+.language {
+  border: none;
+  background: transparent;
+
+  font-size: 14px;
+  color: #5e6670;
+
+  cursor: pointer;
+}

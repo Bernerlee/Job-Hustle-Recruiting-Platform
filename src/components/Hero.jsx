@@ -18,7 +18,10 @@ function Hero() {
             <Suggestions />
           </div>
           <div className={styles.right}>
-            <img src="/images/hero-image.png" alt="Job Search Illustration" />
+            <img
+              src="src\assets\Illustration.svg"
+              alt="Job Search Illustration"
+            />
           </div>
         </div>
 

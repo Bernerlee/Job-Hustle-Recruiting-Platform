@@ -1,0 +1,55 @@
+.section {
+  padding: 100px 120px;
+  background: #f7f9fc;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 42px;
+  margin-bottom: 70px;
+}
+
+.steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.card {
+  padding: 25px 20px;
+  border-radius: 12px;
+  transition: 0.3s ease;
+}
+
+.icon {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  margin: 0 auto 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  color: #0a65cc;
+  cursor: pointer;
+}
+
+.card h4 {
+  margin-bottom: 12px;
+  font-size: 20px;
+}
+
+.card p {
+  color: #9199a3;
+  line-height: 1.6;
+}
+
+.activeCard {
+  background: white;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.activeIcon {
+  background: #0a65cc;
+  color: white;
+}

@@ -1,5 +1,7 @@
 import Hero from "../components/Hero";
+import HowItWorks from "../components/HowItWorks";
 import MainNav from "../components/MainNav";
+import PopularVacancies from "../components/PopularVacancies";
 import TopNav from "../components/TopNav";
 
 function HomePage() {
@@ -12,6 +14,8 @@ function HomePage() {
         <TopNav />
         <MainNav />
         <Hero />
+        <PopularVacancies />
+        <HowItWorks />
       </nav>
     </div>
   );

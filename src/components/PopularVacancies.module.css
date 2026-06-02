@@ -1,0 +1,30 @@
+.section {
+  padding: 80px 120px;
+}
+
+.section h2 {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.item h4 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.item p {
+  color: #9199a3;
+  font-size: 14px;
+}
+
+.active {
+  color: #0a65cc;
+}

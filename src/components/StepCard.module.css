@@ -1,0 +1,26 @@
+.card {
+  padding: 25px 20px;
+  border-radius: 12px;
+  transition: 0.3s ease;
+}
+.activeCard {
+  background: white;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+.icon {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  margin: 0 auto 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  color: #0a65cc;
+  cursor: pointer;
+}
+
+.activeIcon {
+  background: #0a65cc;
+  color: white;
+}

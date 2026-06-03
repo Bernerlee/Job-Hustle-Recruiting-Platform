@@ -1,5 +1,6 @@
 import { BadgeCheck, Search, Upload, UserPlus } from "lucide-react";
 import styles from "./HowItWorks.module.css";
+import StepCard from "./StepCard";
 
 function HowItWorks() {
   const steps = [
@@ -31,26 +32,28 @@ function HowItWorks() {
       <h2>How Jobhustles work</h2>
 
       <div className={styles.steps}>
-        {steps.map((step) => {
-          const Icon = step.icon;
+        <div className={styles.stepWrapper}>
+          <StepCard {...steps[0]} />
+          <img src="src\assets\Arrows.svg" alt="" className={styles.arrow} />
+        </div>
 
-          return (
-            <div
-              className={`${styles.card} ${step.active ? styles.activeCard : ""}`}
-              key={step.title}
-            >
-              <div
-                className={`${styles.icon} ${step.active ? styles.activeIcon : ""}`}
-              >
-                <Icon size={28} />
-              </div>
+        <div className={styles.stepWrapper}>
+          <StepCard {...steps[1]} />
+          <img
+            src="src\assets\Arrows.svg"
+            alt=""
+            className={styles.arrowReverse}
+          />
+        </div>
 
-              <h4>{step.title}</h4>
+        <div className={styles.stepWrapper}>
+          <StepCard {...steps[2]} />
+          <img src="src\assets\Arrows.svg" alt="" className={styles.arrow} />
+        </div>
 
-              <p>{step.description}</p>
-            </div>
-          );
-        })}
+        <div className={styles.stepWrapper}>
+          <StepCard {...steps[3]} />
+        </div>
       </div>
     </section>
   );

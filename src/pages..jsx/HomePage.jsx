@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import HowItWorks from "../components/HowItWorks";
 import MainNav from "../components/MainNav";
 import PopularVacancies from "../components/PopularVacancies";
+import TopCompanies from "../components/TopCompanies/TopCompanies";
 import TopNav from "../components/TopNav";
 
 function HomePage() {
@@ -18,6 +19,7 @@ function HomePage() {
         <PopularVacancies />
         <HowItWorks />
         <FeaturedJobs />
+        <TopCompanies />
       </nav>
     </div>
   );

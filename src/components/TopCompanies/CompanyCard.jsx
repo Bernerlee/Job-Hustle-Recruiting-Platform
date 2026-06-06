@@ -9,11 +9,11 @@ function CompanyCard({ name, location, openings, featured }) {
           <PenTool size={22} />
         </div>
         <div>
-          <div>
+          <div className={styles.nameRow}>
             <h3>{name}</h3>
-            {featured && <span>Featured</span>}
+            {featured && <span className={styles.badge}>Featured</span>}
           </div>
-          <div>
+          <div className={styles.location}>
             <MapPin size={14} />
             <span>{location}</span>
           </div>

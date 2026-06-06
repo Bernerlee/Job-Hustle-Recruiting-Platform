@@ -35,9 +35,9 @@ function MainNav() {
 
       {/* Search Area */}
       <div className={styles.searchWrapper}>
-        <div>
+        <div className={styles.countryWrapper}>
           {/* Selected Country */}
-          <div className={styles.countrySelect}>
+          <div className={styles.countrySelect} onClick={() => setOpen(!open)}>
             <span className={styles.flag}>
               <ReactCountryFlag
                 countryCode={selectedCountry.code}
@@ -54,12 +54,12 @@ function MainNav() {
             <span className={styles.arrow}>&#9661;</span>
           </div>
         </div>
-
         {/* Dropdown */}
         {open && (
-          <div>
+          <div className={styles.dropdown}>
             {countries.map((country) => (
               <div
+                className={styles.option}
                 key={country.code}
                 onClick={() => {
                   setSelectedCountry(country);

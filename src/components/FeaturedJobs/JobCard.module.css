@@ -1,0 +1,78 @@
+.card {
+  padding: 24px;
+  border: 1px solid #e4e5e8;
+
+  border-radius: 12px;
+
+  background: white;
+
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.featuredCard {
+  background: #fff8eb;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.companyRow {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+.left {
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+}
+
+.logo {
+  width: 48px;
+
+  height: 48px;
+
+  border-radius: 8px;
+
+  background: #f1f2f4;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  color: #0a65cc;
+}
+
+.location {
+  display: flex;
+
+  align-items: center;
+
+  gap: 4px;
+
+  color: #9199a3;
+
+  font-size: 14px;
+}

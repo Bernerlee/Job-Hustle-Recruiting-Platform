@@ -1,3 +1,4 @@
+import FeaturedJobs from "../components/FeaturedJobs/FeaturedJobs";
 import Hero from "../components/Hero";
 import HowItWorks from "../components/HowItWorks";
 import MainNav from "../components/MainNav";
@@ -16,6 +17,7 @@ function HomePage() {
         <Hero />
         <PopularVacancies />
         <HowItWorks />
+        <FeaturedJobs />
       </nav>
     </div>
   );

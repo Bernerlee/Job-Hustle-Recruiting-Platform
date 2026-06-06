@@ -42,7 +42,7 @@
 .left {
   display: flex;
 
-  align-items: center;
+  align-items: flex-end;
 
   gap: 12px;
 }
@@ -75,4 +75,8 @@
   color: #9199a3;
 
   font-size: 14px;
+}
+
+h4 {
+  margin: 5px 0;
 }

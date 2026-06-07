@@ -39,11 +39,11 @@ function Testimonials() {
       <h2>Clients Testimonials</h2>
 
       <div className={styles.slideWrapper}>
-        <button>
+        <button className={styles.arrow}>
           <ArrowBigLeft size={20} />
         </button>
 
-        <div>
+        <div className={styles.cards}>
           {testimonials.map((testimonial) => (
             <TestimonialCard key={testimonial.id} {...testimonial} />
           ))}

@@ -1,0 +1,58 @@
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  text-align: left;
+  min-height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.stars {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 20px;
+}
+
+.review {
+  color: #5e6670;
+  line-height: 1.8;
+  font-size: 15px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.user img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user h4 {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.user span {
+  color: #9199a3;
+  font-size: 14px;
+}
+
+.quote {
+  font-size: 60px;
+  color: #d9dee8;
+  line-height: 1;
+}

@@ -14,7 +14,7 @@
 
 .top {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   gap: 16px;
   margin-bottom: 20px;
 }
@@ -38,6 +38,7 @@
 
 .nameRow h3 {
   font-size: 20px;
+  margin: 5px 0This;
 }
 
 .badge {

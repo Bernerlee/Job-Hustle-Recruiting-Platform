@@ -19,7 +19,7 @@ function CompanyCard({ name, location, openings, featured }) {
           </div>
         </div>
       </div>
-      <button>Open Position ({openings})</button>
+      <button className={styles.openings}>Open Position ({openings})</button>
     </div>
   );
 }

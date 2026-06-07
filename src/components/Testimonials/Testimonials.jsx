@@ -54,10 +54,10 @@ function Testimonials() {
         </button>
       </div>
 
-      <div>
+      <div className={styles.dots}>
         <span></span>
         <span></span>
-        <span></span>
+        <span className={styles.active}></span>
         <span></span>
       </div>
     </section>

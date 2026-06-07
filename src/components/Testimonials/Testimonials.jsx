@@ -49,7 +49,7 @@ function Testimonials() {
           ))}
         </div>
 
-        <button>
+        <button className={styles.arrow}>
           <ArrowRight size={20} />
         </button>
       </div>

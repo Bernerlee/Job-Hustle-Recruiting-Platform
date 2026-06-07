@@ -35,10 +35,10 @@ function Testimonials() {
     },
   ];
   return (
-    <section>
+    <section className={styles.testimonials}>
       <h2>Clients Testimonials</h2>
 
-      <div>
+      <div className={styles.slideWrapper}>
         <button>
           <ArrowBigLeft size={20} />
         </button>

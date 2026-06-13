@@ -24,6 +24,7 @@
   border-radius: 10px;
   background: white;
   color: #0a65cc;
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;

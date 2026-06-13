@@ -1,0 +1,158 @@
+.mainNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0px 120px;
+
+  background-color: white;
+
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.logo h2 {
+  color: #0a65cc;
+
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* Select */
+.countrySelect {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 56px;
+  padding: 0 18px;
+  border-right: 1px solid #e5e7eb;
+  cursor: pointer;
+}
+
+.flag {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.countryName {
+  font-size: 14px;
+  font-weight: 500;
+  color: #18191c;
+}
+
+.arrow {
+  font-size: 10px;
+  color: #767f8c;
+  margin-top: 2px;
+}
+
+.searchWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  margin-left: -50px;
+
+  width: 800px;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+
+  overflow: hidden;
+}
+
+.countryWrapper {
+  position: relative;
+}
+
+.dropdown {
+  position: absolute;
+  top: 15%;
+  left: 25%;
+  width: 180px;
+  background: white;
+  border: 1px solid #e4e5e8;
+  border-radius: 8px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+
+.option {
+  display: flex;
+  gap: 10px;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.option:hover {
+  background: #f4f5f7;
+}
+.country {
+  width: 100px;
+
+  height: 56px;
+
+  border: none;
+  outline: none;
+
+  padding: 0 16px;
+
+  background-color: white;
+
+  font-size: 14px;
+
+  border-right: 1px solid #e5e7eb;
+
+  cursor: pointer;
+}
+
+.search {
+  flex: 1;
+
+  height: 56px;
+
+  border: none;
+  outline: none;
+
+  padding: 0 20px;
+
+  font-size: 14px;
+}
+
+/* Buttons */
+.actions {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.signIn {
+  padding: 14px 24px;
+  border: 1px solid #0a65cc;
+  background: white;
+  color: #0a65cc;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.postJob {
+  padding: 14px 24px;
+  border: none;
+  background: #0a65cc;
+  color: white;
+  border-radius: 6px;
+  font-weight: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.user {
+  color: text-gray-600;
+}

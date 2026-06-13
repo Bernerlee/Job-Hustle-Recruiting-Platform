@@ -1,4 +1,4 @@
-import { ArrowBigLeft, ArrowRight } from "lucide-react";
+import { ArrowLeft, ArrowRight } from "lucide-react";
 import styles from "./Testimonials.module.css";
 import TestimonialCard from "./TestimonialCard";
 
@@ -40,7 +40,7 @@ function Testimonials() {
 
       <div className={styles.slideWrapper}>
         <button className={styles.arrow}>
-          <ArrowBigLeft size={20} />
+          <ArrowLeft size={20} />
         </button>
 
         <div className={styles.cards}>

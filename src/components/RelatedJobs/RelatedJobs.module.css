@@ -1,0 +1,32 @@
+.relatedJobs {
+  padding: 100px 0;
+
+  background: #fff;
+}
+.container {
+  max-width: 1320px;
+
+  margin: 0 auto;
+}
+.container h2 {
+  font-size: 40px;
+
+  font-weight: 600;
+
+  margin-bottom: 40px;
+
+  color: #18191c;
+}
+.grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 24px;
+}
+
+.card:hover {
+  background: #fff8ef;
+
+  border-color: #f0c98d;
+}

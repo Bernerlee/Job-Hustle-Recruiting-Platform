@@ -8,10 +8,10 @@ import {
   Wallet,
   MapPin,
   Link,
-  Facebook,
-  Linkedin,
-  Twitter,
   Mail,
+  Factory,
+  Link2Icon,
+  TowelRack,
 } from "lucide-react";
 
 import styles from "./JobDetail.module.css";
@@ -228,9 +228,9 @@ function JobDetail() {
                 Copy Link
               </button>
 
-              <Facebook size={18} />
-              <Linkedin size={18} />
-              <Twitter size={18} />
+              <Factory size={18} />
+              <Link2Icon size={18} />
+              <TowelRack size={18} />
               <Mail size={18} />
             </div>
           </div>
